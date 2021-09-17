@@ -1,36 +1,31 @@
 // Typography
 
-@font-face {
-	font-family: 'BlackGothic';
-	src: url('assets/fonts/2C0E4D_1_0.eot');
-	src: url('assets/fonts/2C0E4D_1_0.eot?#iefix') format('embedded-opentype'),
-	url('assets/fonts/2C0E4D_1_0.woff') format('woff'),
-	url('assets/fonts/2C0E4D_1_0.ttf') format('truetype');
-	font-weight: normal;
-}
-@font-face {
-	font-family: 'BlackGothic';
-	src: url('assets/fonts/2C0E4D_0_0.eot');
-	src: url('assets/fonts/2C0E4D_0_0.eot?#iefix') format('embedded-opentype'),
-	url('assets/fonts/2C0E4D_0_0.woff') format('woff'),
-	url('assets/fonts/2C0E4D_0_0.ttf') format('truetype');
-	font-weight: bold;
-}
 
 // General properties
 body, p {
-  font-family: georgia,serif;
-  font-style: normal;
-  font-weight: normal;
-  letter-spacing: 1px;
+font-family: playfair-display, serif;
+font-weight: 400;
+font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6, .menu-item a, .btn{
-  font-family: BlackGothic, sans-serif;
+h1{
+  font-size: 4rem;
+  font-family: medusa, sans-serif;
+  font-weight: 400;
   font-style: normal;
-  font-weight: normal;
-  letter-spacing: 5px;
-  text-transform: uppercase;
+  color: $green-base;
+}
+
+h2, h3, h4, h5, h6, .menu-item a, .btn{
+
+
+  font-family: din-condensed, sans-serif;
+
+  font-weight: 400;
+  
+  font-style: normal;
+  
+
 }
 
 

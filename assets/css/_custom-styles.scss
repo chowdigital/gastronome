@@ -20,22 +20,22 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: $blue-base;
+    background-color: $white-base;
     //background: url('http://localhost:8888/BlackBook/wp-content/uploads/2020/08/copper.png') no-repeat 50% fixed / cover;
 }
 
 // change Navbar color on scroll 
 
 .top-nav-collapse {
-    background: $blue-base!important;
+    background: $green-base!important;
 }
 
 .navbar {
-background: $blue-base;
+background: $green-base;
 }
     @include media-breakpoint-up(md) {
         .navbar {
-            background: $blue-base;
+            background: $green-base;
             }
       }
 
@@ -48,7 +48,7 @@ background: $blue-base;
 }
 #full-logo {
     object-fit: contain;
-    max-height: 300px;
+    max-height: 500px
 }
       
 //remove at bottom of footer
@@ -110,7 +110,7 @@ footer {
 
 // Hightlight Book BTN
 .book-btn {
-    border: 1px solid $yellow-base;
+    border: 1px solid $white-base;
 
 }
 
@@ -136,12 +136,12 @@ background: linear-gradient(180deg, rgba(0,0,0,0.7077031496192228) 0%, rgba(0,0,
 }
 
 .white-content-box {
-    background-color: $blue-base;
+    background-color: $green-base;
     width: 100%;
     padding: 2rem;
-    -webkit-box-shadow: 0 0 0 2px $yellow-base inset;
-    box-shadow: 0 0 0 2px $yellow-base inset;
-    border: 1rem solid $blue-base;
+    -webkit-box-shadow: 0 0 0 2px $white-base inset;
+    box-shadow: 0 0 0 2px $white-base inset;
+    border: 1rem solid $green-base;
     color: #fff;
 }
 @include media-breakpoint-up(lg) {
@@ -167,11 +167,11 @@ background: linear-gradient(180deg, rgba(0,0,0,0.7077031496192228) 0%, rgba(0,0,
 }
 
 .menu-content-box {
-    background-color: $blue-base;
+    background-color: $green-base;
     padding: 2rem;
-    -webkit-box-shadow: 0 0 0 2px $yellow-base inset;
-    box-shadow: 0 0 0 2px $yellow-base inset;
-    border: 1rem solid $blue-base;
+    -webkit-box-shadow: 0 0 0 2px $white-base inset;
+    box-shadow: 0 0 0 2px $white-base inset;
+    border: 1rem solid $green-base;
     color: #fff;
 }
 
@@ -185,7 +185,7 @@ footer {
     margin-top: 0;
 }
 .dark-background {
-    background: $blue-base;
+    background: $green-base;
 }
 .black-background {
     margin-top:2em;

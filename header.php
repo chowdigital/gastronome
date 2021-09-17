@@ -38,11 +38,16 @@
               
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" role="navigation">
   <div class="container">
-	<!-- Brand and toggle get grouped for better mobile display -->
+    <div class="col-8 offset-2 col-md-4 offset-md-4 col-lg-2 offset-lg-5 ">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/gastronome_text_light.svg" alt="Gastronome Logo" style>
+
+    </div>
+	<!-- Brand and toggle get grouped for better mobile display 
 	<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_cav.png" alt="Black Book Logo" style>
+  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/gastronome_text_light.svg" alt="Gastronome Logo" style>
 
 		</a>
+  
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -62,13 +67,13 @@
             'walker'            => new WP_Bootstrap_Navwalker(),
         ) );
 		?>
-		
+		-->
 		
     </div>
 </nav>
 		
 
-		<!--Navbar-->
+		<!---Navbar-->
 
 
 	</header><!-- #masthead -->

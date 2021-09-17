@@ -1,0 +1,221 @@
+// Settings for full height background
+html,
+body,
+#page,
+.view {
+    width: 100%; 
+  height:100%; 
+
+}
+ 
+  // Settings for navbar in edit mode
+body.logged-in {
+    
+    nav {
+        margin-top: 32px;
+    }
+}
+body {
+  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: $blue-base;
+    //background: url('http://localhost:8888/BlackBook/wp-content/uploads/2020/08/copper.png') no-repeat 50% fixed / cover;
+}
+
+// change Navbar color on scroll 
+
+.top-nav-collapse {
+    background: $blue-base!important;
+}
+
+.navbar {
+background: $blue-base;
+}
+    @include media-breakpoint-up(md) {
+        .navbar {
+            background: $blue-base;
+            }
+      }
+
+//navbar logo
+
+.navbar-brand img{
+    width: 150px;
+    max-height: auto;
+
+}
+#full-logo {
+    object-fit: contain;
+    max-height: 300px;
+}
+      
+//remove at bottom of footer
+.page{
+    margin: 0;
+    padding-top:0px;
+}
+.navbar-toggler {
+    background-color: transparent !important;
+}
+.entry-title {
+    margin: 1em 0em;
+}
+
+
+
+footer {
+    margin-top: 4rem;
+    .md-form label {
+        color: $white;
+    }
+}
+
+
+.no-line-break{
+    margin-bottom: 0rem;
+}
+
+.post-header{
+    margin-top: 8rem;
+}
+
+// Full screen video Template CSS
+.img-fluid, .modal-dialog.cascading-modal.modal-avatar .modal-header, .video-fluid {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#myVideo{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto; 
+    height: auto;
+    z-index: -1000; 
+    overflow: hidden;
+  }
+
+// Full screen video Template CSS
+.btn-rounded {
+    background: #8B634B;
+    padding: 20px 20px;
+    border-radius: 40px;
+}
+
+// Hightlight Book BTN
+.book-btn {
+    border: 1px solid $yellow-base;
+
+}
+
+//Resize Navbar buttons
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+//Custom page header
+.gradient-custom {
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0.7077031496192228) 0%, rgba(0,0,0,0) 38%);
+}
+
+.page-img-header{
+    height: 100%;
+}
+@media (min-width: 768px) {
+    .page-img-header{
+        height: 50%;
+    }
+}
+
+.white-content-box {
+    background-color: $blue-base;
+    width: 100%;
+    padding: 2rem;
+    -webkit-box-shadow: 0 0 0 2px $yellow-base inset;
+    box-shadow: 0 0 0 2px $yellow-base inset;
+    border: 1rem solid $blue-base;
+    color: #fff;
+}
+@include media-breakpoint-up(lg) {
+    .white-content-box {
+        width: 50%;
+    }
+  }
+
+//fonts
+
+// extra padding
+.pt-6 {
+    margin-top: 7rem;
+}
+.pb-6 {
+    margin-bottom: 7rem;
+}
+
+// Menu page 
+
+.menu-image-box{
+    min-height: 400px;
+}
+
+.menu-content-box {
+    background-color: $blue-base;
+    padding: 2rem;
+    -webkit-box-shadow: 0 0 0 2px $yellow-base inset;
+    box-shadow: 0 0 0 2px $yellow-base inset;
+    border: 1rem solid $blue-base;
+    color: #fff;
+}
+
+.btn-80 {
+    width: 80%
+}
+// \Menu Page 
+
+//footer 
+footer {
+    margin-top: 0;
+}
+.dark-background {
+    background: $blue-base;
+}
+.black-background {
+    margin-top:2em;
+    background: #000;
+}
+@media (min-width: 768px) {
+    .text-footer-responsive{
+        text-align: right;
+    }
+}
+
+// fix spacing issue text on footer
+.fc-wide{
+    padding-left: calc(var(--bs-gutter-x) / 2);
+}
+// footer
+
+// Set size for thumbnail images
+.thumb-wrapper{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+   
+    img {
+        object-fit: cover;
+    }
+
+}
+// Hide Entry Footer
+
+.entry-footer{display: none;}
+
+// End Hide Entry Footer
